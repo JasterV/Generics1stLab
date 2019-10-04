@@ -1,2 +1,2 @@
 # Generics1stLab
-An introduction to the use of generics an herency with java
+An introduction to the use of **generics** and **inheritance** with java
