@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="17fdaed9-1f65-4f2b-93be-7dede86f859c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Pokemons/ElectricPokemon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Pokemons/ElementalPokemon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Pokemons/FirePokemon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Pokemons/GrassPokemon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Pokemons/WaterPokemon.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pokemons/Pokemon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pokemons/Pokemon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pokemons/ElectricPokemon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pokemons/ElectricPokemon.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -131,8 +126,16 @@
       <workItem from="1570195660633" duration="1118000" />
       <workItem from="1570196980480" duration="1095000" />
       <workItem from="1570211002022" duration="3669000" />
-      <workItem from="1570218519819" duration="5046000" />
+      <workItem from="1570218519819" duration="5479000" />
     </task>
+    <task id="LOCAL-00001" summary="Electric pokemon in progress">
+      <created>1570230058739</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1570230058739</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -150,5 +153,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Electric pokemon in progress" />
+    <option name="LAST_COMMIT_MESSAGE" value="Electric pokemon in progress" />
   </component>
 </project>

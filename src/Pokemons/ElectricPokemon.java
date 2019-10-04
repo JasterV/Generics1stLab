@@ -9,7 +9,7 @@ public class ElectricPokemon extends Pokemon implements ElementalPokemon {
     public ElectricPokemon(String name, int level, int attack, int defense, int HP) {
         super(name, level, attack, defense, HP);
         weakness = "Water";
-        resistance = "Electric and Grass";
+        resistance = "Electric, Grass";
         habitat = "Prairies";
     }
 
@@ -33,15 +33,12 @@ public class ElectricPokemon extends Pokemon implements ElementalPokemon {
         return "Electric";
     }
 
-    public int basicAttack(){
-        return attack;
-    }
-
-    public int boltStrike(){
-        return attack * 2;
-    }
-
-    public void shield(){
-        defense += 20;
+    @Override
+    public String toString(){
+        return super.toString() +
+                ", Type: " + "Electric" +
+                ", weakness: " + weakness +
+                ", resistance: " + resistance +
+                ", Main habitat: " + habitat;
     }
 }
