@@ -1,11 +1,11 @@
 package Pokemons;
 
 public class Pokemon implements Comparable<Pokemon> {
-    private String name;
-    private int level;
-    private int attack;
-    private int defense;
-    private int HP;
+    protected String name;
+    protected int level;
+    protected int attack;
+    protected int defense;
+    protected int HP;
 
     public Pokemon(String name, int level, int attack, int defense, int HP) {
         this.name = name;
@@ -39,7 +39,7 @@ public class Pokemon implements Comparable<Pokemon> {
     public void levelUp() {
         level += 1;
         attack += 50;
-        defense += 50;
+        defense += 30;
         HP += 200;
     }
 
