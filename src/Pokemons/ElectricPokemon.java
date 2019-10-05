@@ -6,8 +6,8 @@ public class ElectricPokemon extends Pokemon implements ElementalPokemon {
     private String habitat;
 
 
-    public ElectricPokemon(String name, int level, int attack, int defense, int HP) {
-        super(name, level, attack, defense, HP);
+    public ElectricPokemon(String name, int level) {
+        super(name, level);
         weakness = "Water";
         resistance = "Electric, Grass";
         habitat = "Prairies";

@@ -7,12 +7,12 @@ public class Pokemon implements Comparable<Pokemon> {
     protected int defense;
     protected int HP;
 
-    public Pokemon(String name, int level, int attack, int defense, int HP) {
+    public Pokemon(String name, int level) {
         this.name = name;
         this.level = level;
-        this.attack = attack;
-        this.defense = defense;
-        this.HP = HP;
+        this.attack = level*50;
+        this.defense = level*30;
+        this.HP = level*120;
     }
 
     public String getName() {
@@ -26,7 +26,6 @@ public class Pokemon implements Comparable<Pokemon> {
     public int getAttack() {
         return attack;
     }
-
 
     public int getDefense() {
         return defense;

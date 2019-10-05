@@ -2,8 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="17fdaed9-1f65-4f2b-93be-7dede86f859c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Test/ComparationTest/PokemonsComparationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test/Tarea2/GenericPartitionerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test/Tarea3/copyPartitionTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/Tarea1/PartitionerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/Tarea1/IntegerListsPartitionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/Tarea2/PartitionerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/Tarea3/PartitionerTest.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Pokemons/ElectricPokemon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pokemons/ElectricPokemon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pokemons/FirePokemon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pokemons/FirePokemon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pokemons/GrassPokemon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pokemons/GrassPokemon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pokemons/Pokemon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pokemons/Pokemon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pokemons/WaterPokemon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pokemons/WaterPokemon.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,9 +24,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit5 Test Class" />
         <option value="Class" />
         <option value="Interface" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -51,6 +61,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="Pokemons" />
       <recent name="Tarea3" />
       <recent name="Tarea2" />
       <recent name="Tarea1" />
@@ -71,34 +82,73 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.PartitionerTest.test2_partition">
-    <configuration name="PartitionerTest.test2_partition" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.All in PairOfLists">
+    <configuration name="All in PairOfLists" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PairOfLists" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GenericPartitionerTest.test_partition_comparator" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PairOfLists" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Tarea1.*" />
+          <option name="PATTERN" value="Tarea2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Tarea1" />
-      <option name="MAIN_CLASS_NAME" value="Tarea1.PartitionerTest" />
-      <option name="METHOD_NAME" value="test2_partition" />
+      <option name="PACKAGE_NAME" value="Tarea2" />
+      <option name="MAIN_CLASS_NAME" value="Tarea2.GenericPartitionerTest" />
+      <option name="METHOD_NAME" value="test_partition_comparator" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PartitionerTest.test_partition" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PokemonsComparationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PairOfLists" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Tarea1.*" />
+          <option name="PATTERN" value="ComparationTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Tarea1" />
-      <option name="MAIN_CLASS_NAME" value="Tarea1.PartitionerTest" />
-      <option name="METHOD_NAME" value="test_partition" />
+      <option name="PACKAGE_NAME" value="ComparationTest" />
+      <option name="MAIN_CLASS_NAME" value="ComparationTest.PokemonsComparationTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PokemonsComparationTest.test_comparable" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PairOfLists" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ComparationTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ComparationTest" />
+      <option name="MAIN_CLASS_NAME" value="ComparationTest.PokemonsComparationTest" />
+      <option name="METHOD_NAME" value="test_comparable" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="copyPartitionTest.test_copyPartition_Comparable" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PairOfLists" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Tarea3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Tarea3" />
+      <option name="MAIN_CLASS_NAME" value="Tarea3.copyPartitionTest" />
+      <option name="METHOD_NAME" value="test_copyPartition_Comparable" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -106,10 +156,16 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.PartitionerTest.test2_partition" />
-        <item itemvalue="JUnit.PartitionerTest.test_partition" />
+        <item itemvalue="JUnit.All in PairOfLists" />
+        <item itemvalue="JUnit.copyPartitionTest.test_copyPartition_Comparable" />
+        <item itemvalue="JUnit.PokemonsComparationTest" />
+        <item itemvalue="JUnit.GenericPartitionerTest.test_partition_comparator" />
+        <item itemvalue="JUnit.PokemonsComparationTest.test_comparable" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="StructureViewFactory">
+    <option name="ACTIVE_ACTIONS" value=",SHOW_PROPERTIES,VISIBILITY_SORTER" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -126,7 +182,7 @@
       <workItem from="1570195660633" duration="1118000" />
       <workItem from="1570196980480" duration="1095000" />
       <workItem from="1570211002022" duration="3669000" />
-      <workItem from="1570218519819" duration="5479000" />
+      <workItem from="1570218519819" duration="13101000" />
     </task>
     <task id="LOCAL-00001" summary="Electric pokemon in progress">
       <created>1570230058739</created>
@@ -135,7 +191,14 @@
       <option name="project" value="LOCAL" />
       <updated>1570230058739</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Electric pokemon in progress">
+      <created>1570230461314</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1570230461314</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -6,7 +6,7 @@ import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class PartitionerTest {
+class IntegerListsPartitionTest {
 
     @Test
     void test1_partition() {
